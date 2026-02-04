@@ -25,7 +25,7 @@ const urls = {
 };
 
 (async () => {
-  const browser = await chromium.launch({ headless: false, args: ['--no-sandbox'] });
+  const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
   const page = await browser.newPage();
   await page.goto(urls[provider], { waitUntil: 'domcontentloaded', timeout: 60000 });
 
