@@ -1,0 +1,19 @@
+{
+  "name": "nikaadforge",
+  "version": "1.0.0",
+  "description": "A token-efficient \"ad factory\" for generating Facebook/Instagram ad variants (copy + assets) using a Brand Kit + industry templates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-nikavideo:Alonerism/NikaVideo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.58.1"
+  }
+}
